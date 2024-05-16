@@ -1,0 +1,27 @@
+
+.weather-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.weather-info {
+    background-color: #9361bf;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.temperature {
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 18px;
+    margin-top: 10px;
+}
