@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" />
+    <title>To-do list app</title>
 </head>
 <body>
-$END$
+<div id="wrapper">
+    <header>
+        <div id="page-banner">
+            <h1 class="title">To-Do List Application</h1>
+            <p>Welcome to Task management app</p>
+            <p>that  helps you manage your daily activities</p>
+            <form id="search-tasks">
+                <input type="text" placeholder="Search tasks..." />
+            </form>
+        </div>
+    </header>
+    <div id="task-list">
+        <h2 class="title">Create a task and manage your day rightly</h2>
+        <ul>
+            <li>
+                <span class="name">Task 1</span>
+                <span class="delete">delete</span>
+            </li>
+        </ul>
+    </div>
+    <form id="add-task">
+        <input type="text" placeholder="Add a task..." />
+        <button>Add</button>
+    </form>
+
+</div>
+<script src="index.js"></script>
 </body>
 </html>
+

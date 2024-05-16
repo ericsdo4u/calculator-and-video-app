@@ -1,0 +1,25 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+.subTitle{
+    width: 500px;
+    height: 20px;
+    margin: 20px;
+    color: green;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+
+}
+
